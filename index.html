@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Product Page</title>
+  
+</head>
+<body>
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Product Section: Gallery and Details -->
+    <section class="product-section">
+      <!-- Product Image Gallery -->
+      <div class="product-gallery">
+        <div class="main-image">
+          <img id="main-image" src="https://via.placeholder.com/500" alt="Product Main Image">
+        </div>
+        <div class="thumbnails">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\black.jpg" alt="Thumbnail 1" class="thumbnail active" data-image="C:\Users\Admin\OneDrive\Desktop\New folder\assets\black.jpg">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\white1.jpg" alt="Thumbnail 2" class="thumbnail" data-image="C:\Users\Admin\OneDrive\Desktop\New folder\assets\white1.jpg">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\black2.jpg" alt="Thumbnail 3" class="thumbnail" data-image="C:\Users\Admin\OneDrive\Desktop\New folder\assets\black2.jpg">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\white2.jpg" alt="Thumbnail 4" class="thumbnail" data-image="C:\Users\Admin\OneDrive\Desktop\New folder\assets\white2.jpg">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\blue1.jpg" alt="Thumbnail 5" class="thumbnail" data-image="C:\Users\Admin\OneDrive\Desktop\New folder\assets\blue1.jpg">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\blue2.jpg" alt="Thumbnail 1" class="thumbnail active" data-image="C:\Users\Admin\OneDrive\Desktop\New folder\assets\blue2.jpg">
+        </div>
+      </div>
+      <!-- Product Details -->
+      <div class="product-details">
+        <h1>Classic Cotton T-Shirt</h1>
+        <p class="price">$29.99</p>
+        <!-- Variants: Colors and Sizes -->
+        <div class="variants">
+          <div class="colors">
+            <h3>Color:</h3>
+            <div class="color-swatch" data-color="Black" style="background-color: #000;"></div>
+            <div class="color-swatch" data-color="White" style="background-color: #fff; border: 1px solid #ccc;"></div>
+            <div class="color-swatch" data-color="Blue" style="background-color: #1e90ff;"></div>
+          </div>
+          <div class="sizes">
+            <h3>Size: <button class="size-chart-btn" aria-label="Open Size Chart">Size Chart</button></h3>
+            <select id="size-select">
+              <option value="S">Small</option>
+              <option value="M">Medium</option>
+              <option value="L">Large</option>
+              <option value="XL">X-Large</option>
+            </select>
+          </div>
+          <button class="compare-colors-btn">Compare Colors</button>
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+        <!-- Tabs: Product Info -->
+        <div class="tabs">
+          <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="description">Description</button>
+            <button class="tab-btn" data-tab="info">Product Information</button>
+            <button class="tab-btn" data-tab="shipping">Shipping Details</button>
+          </div>
+          <div class="tab-content">
+            <div id="description" class="tab-pane active">
+              <p>Soft, comfortable cotton t-shirt for everyday wear.</p>
+            </div>
+            <div id="info" class="tab-pane">
+              <p>Material: 100% Cotton<br>Care: Machine Washable</p>
+            </div>
+            <div id="shipping" class="tab-pane">
+              <p>Free shipping on orders over $50. Delivery: 3-5 days.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Bundle -->
+    <section class="product-bundle">
+      <h2>Buy These Together</h2>
+      <div class="bundle-items">
+        <div class="bundle-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\classictee.jpg" alt="Bundle Item 1">
+          <p>Classic T-Shirt</p>
+          <p>$29.99</p>
+        </div>
+        <div class="bundle-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\jeans.jpg" alt="Bundle Item 2">
+          <p>Straight Fit Jeans</p>
+          <p>$49.99</p>
+        </div>
+        <div class="bundle-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\belt.jpg" alt="Bundle Item 3">
+          <p>Leather Belt</p>
+          <p>$19.99</p>
+        </div>
+      </div>
+      <p class="bundle-total">Total: $99.97</p>
+      <button class="add-bundle-to-cart">Add Bundle to Cart</button>
+    </section>
+
+    <!-- Pair Well With -->
+    <section class="pair-well-with">
+      <h2>Pair Well With</h2>
+      <div class="pair-carousel">
+        <div class="pair-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\denimjacket.jpg" alt="Pair Item 1">
+          <p>Denim Jacket</p>
+          <p>$59.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="pair-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\chino.jpg" alt="Pair Item 2">
+          <p>Chino Pants</p>
+          <p>$39.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="pair-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\sneakers.jpg" alt="Pair Item 3">
+          <p>Sneakers</p>
+          <p>$79.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="pair-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\sunglasses.jpg" alt="Pair Item 4">
+          <p>Sunglasses</p>
+          <p>$24.99</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products">
+      <h2>Related Products</h2>
+      <div class="related-grid">
+        <div class="related-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\polo.jpg" alt="Related Item 1">
+          <p>Polo Shirt</p>
+          <p>$34.99</p>
+          <span class="badge">New</span>
+        </div>
+        <div class="related-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\hoodie.jpg" alt="Related Item 2">
+          <p>Hoodie</p>
+          <p>$49.99</p>
+          <span class="badge">Popular</span>
+        </div>
+        <div class="related-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\shorts.jpg" alt="Related Item 3">
+          <p>Shorts</p>
+          <p>$24.99</p>
+        </div>
+        <div class="related-item">
+          <img src="C:\Users\Admin\OneDrive\Desktop\New folder\assets\cap.jpg" alt="Related Item 4">
+          <p>Cap</p>
+          <p>$19.99</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Size Chart Modal -->
+  <div id="size-chart-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="size-chart-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" aria-label="Close Size Chart">×</button>
+      <h2 id="size-chart-title">Size Chart</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Size</th>
+            <th>Chest</th>
+            <th>Length</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>S</td><td>36-38"</td><td>27"</td></tr>
+          <tr><td>M</td><td>38-40"</td><td>28"</td></tr>
+          <tr><td>L</td><td>40-42"</td><td>29"</td></tr>
+          <tr><td>XL</td><td>42-44"</td><td>30"</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Compare Colors Modal -->
+  <div id="compare-colors-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="compare-colors-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" aria-label="Close Compare Colors">×</button>
+      <h2 id="compare-colors-title">Compare Colors</h2>
+      <div class="compare-swatches">
+        <div class="compare-swatch" data-color="Black" style="background-color: #000;"></div>
+        <div class="compare-swatch" data-color="White" style="background-color: #fff; border: 1px solid #ccc;"></div>
+        <div class="compare-swatch" data-color="Blue" style="background-color: #1e90ff;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Product Gallery: Update main image on thumbnail click
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    const mainImage = document.getElementById('main-image');
+
+    thumbnails.forEach(thumbnail => {
+      thumbnail.addEventListener('click', () => {
+        thumbnails.forEach(t => t.classList.remove('active')); // Remove active class
+        thumbnail.classList.add('active'); // Add active class
+        mainImage.src = thumbnail.dataset.image; // Update main image
+      });
+    });
+
+    // Product Variants: Handle color and size selection with localStorage
+    const colorSwatches = document.querySelectorAll('.color-swatch');
+    const sizeSelect = document.getElementById('size-select');
+
+    colorSwatches.forEach(swatch => {
+      swatch.addEventListener('click', () => {
+        colorSwatches.forEach(s => s.classList.remove('active')); // Remove active class
+        swatch.classList.add('active'); // Add active class
+        localStorage.setItem('selectedColor', swatch.dataset.color); // Save to localStorage
+      });
+    });
+
+    sizeSelect.addEventListener('change', () => {
+      localStorage.setItem('selectedSize', sizeSelect.value); // Save size to localStorage
+    });
+
+    // Load saved selections on page load
+    window.addEventListener('load', () => {
+      const savedColor = localStorage.getItem('selectedColor');
+      const savedSize = localStorage.getItem('selectedSize');
+      if (savedColor) {
+        const swatch = document.querySelector(`.color-swatch[data-color="${savedColor}"]`);
+        if (swatch) {
+          colorSwatches.forEach(s => s.classList.remove('active'));
+          swatch.classList.add('active');
+        }
+      }
+      if (savedSize) {
+        sizeSelect.value = savedSize;
+      }
+    });
+
+    // Tabs: Toggle product info tabs
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        tabButtons.forEach(btn => btn.classList.remove('active')); // Remove active class
+        tabPanes.forEach(pane => pane.classList.remove('active')); // Hide all panes
+        button.classList.add('active'); // Add active class
+        document.getElementById(button.dataset.tab).classList.add('active'); // Show selected pane
+      });
+    });
+
+    // Modals: Handle size chart and compare colors modals
+    const sizeChartBtn = document.querySelector('.size-chart-btn');
+    const sizeChartModal = document.getElementById('size-chart-modal');
+    const compareColorsBtn = document.querySelector('.compare-colors-btn');
+    const compareColorsModal = document.getElementById('compare-colors-modal');
+    const closeButtons = document.querySelectorAll('.close-btn');
+
+    function openModal(modal) {
+      modal.style.display = 'flex'; // Show modal
+    }
+
+    function closeModal(modal) {
+      modal.style.display = 'none'; // Hide modal
+    }
+
+    sizeChartBtn.addEventListener('click', () => openModal(sizeChartModal));
+    compareColorsBtn.addEventListener('click', () => openModal(compareColorsModal));
+    closeButtons.forEach(btn => btn.addEventListener('click', () => closeModal(btn.closest('.modal'))));
+
+    // Close modal on overlay click
+    document.addEventListener('click', (e) => {
+      if (e.target.classList.contains('modal')) {
+        closeModal(e.target);
+      }
+    });
+
+    // Close modal on ESC key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModal(sizeChartModal);
+        closeModal(compareColorsModal);
+      }
+    });
+  </script>
+</body>
+</html>
+```
